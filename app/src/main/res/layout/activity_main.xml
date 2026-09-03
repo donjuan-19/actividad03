@@ -39,6 +39,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="Calificación del producto"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="477dp" />
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="280dp"
+        android:layout_height="25dp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="550dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="262dp"
+        android:layout_height="21dp"
+        android:max="10"
+        android:progress="3"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="590dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
